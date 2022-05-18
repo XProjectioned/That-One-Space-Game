@@ -15,6 +15,8 @@ div{
     letter-spacing: 2px;
 }
 div > p{
+    padding-top: 90vh;
+    padding-left: 2vw;
     position: absolute;
     font-size: 24px;
     z-index: 10;
