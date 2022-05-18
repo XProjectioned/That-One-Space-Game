@@ -1,0 +1,28 @@
+@font-face {
+    font-family: spaceInvaders;
+    src: url(./assets/spaceInvaders.ttf) format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div{
+    position: relative;
+    font-family: spaceInvaders;
+    letter-spacing: 2px;
+}
+div > p{
+    position: absolute;
+    font-size: 24px;
+    z-index: 10;
+    color: chartreuse;
+}
+
+canvas{
+    background-color: rgb(12, 12, 12);
+    border-top: 5px solid rgb(0, 256, 0);
+    border-bottom: 5px solid rgb(0, 256, 0);
+}
